@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Store</title>
+        <style>
+            body{
+                margin: 10;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .header{
+                width: 100%;
+                height: 80px;
+                background-color: #e38808;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            .intro-text{
+                color: white;
+                font-size: 32px;
+                padding-top: 20px;
+            }
+            .product-image{
+                width: 200px;
+                /* height: 200px; */
+                border-radius: 5px;
+                background-color: white;
+                padding: 20px;
+                text-align: center;
+                box-shadow: 0 4px 8px 0 rgba(138, 213, 243, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .product-image img{
+                width: 190px;
+                height: 160px;
+                border-radius: 5px;
+            }
+            li{
+                list-style: none;
+                margin: 30px;
+            }
+            ul{
+                display: inline-flex;
+            }
+            .product-name{
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 5px;
+            }
+            .product-btn{
+                width: 150px;
+                /* height: 56px; */
+                margin: 20px;
+                background-color: #e38808;
+                padding: 10px;
+                display: block;
+                text-decoration: none;
+                color: white;
+                border-radius: 5px;
+            }
+            .product-btn:hover{
+                background-color: #f4b050;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="header">
+            <h4 class="intro-text">Welcome to our Store</h4>
+            <marquee>
+                <p style="font-style: italic; color: aqua;">Shop as you want!</p>
+        </marquee>
+        </nav>
+        <ul>
+            <li>
+                <div class="product-image">
+                    <img src="./images/fish.jpeg" width="100"/>
+                    <p class="product-name">Fish</p>
+                    <a href="buy.html" class="product-btn">Buy</a>
+                </div>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th class="cal">
+                                Calories
+                            </th>
+                            <td>120kcal</td>
+                            <td>kcal</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Proteins
+                            </th>
+                            <td>120kcal</td>
+                            <td>kcal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <br>
+            <br>
+            <li>
+                <div class="product-image">
+                    <img src="./images/meat.jpeg" width="100"/>
+                    <p class="product-name">Beef</p>
+                    <a href="buy.html" class="product-btn">Buy</a>
+                </div>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th class="cal">
+                                Calories
+                            </th>
+                            <td>120kcal</td>
+                            <td>kcal</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Proteins
+                            </th>
+                            <td>120kcal</td>
+                            <td>kcal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <br>
+            <br>
+            <li>
+                <div class="product-image">
+                    <img src="./images/eggs.webp" width="100"/>
+                    <p class="product-name">Eggs</p>
+                    <a href="buy.html" class="product-btn">Buy</a>
+                </div>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th class="cal">
+                                Calories
+                            </th>
+                            <td>120kcal</td>
+                            <td>kcal</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Proteins
+                            </th>
+                            <td>120kcal</td>
+                            <td>kcal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+        <div style="text-align: center;">
+            <a href="index.html">Home</a>
+        </div>
+    </body>
+</html>
